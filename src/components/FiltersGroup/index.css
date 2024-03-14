@@ -1,0 +1,96 @@
+.filters-group-container {
+  margin-top: 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .filters-group-container {
+    width: 30%;
+    max-width: 350px;
+    margin-top: 48px;
+    flex-shrink: 0;
+  }
+}
+
+/* Write your CSS here */
+.search-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f1f5f9;
+  padding: 15px;
+  border-radius: 10px;
+  min-width: 5%;
+}
+
+input {
+  border: none;
+  background-color: transparent;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 15px;
+  margin-top: 15px;
+}
+
+.class-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  list-style-type: none;
+  padding: 0px;
+  padding-left: 0px;
+  margin-top: 0px;
+  align-self: flex-start;
+}
+
+li {
+  list-style-type: none;
+  margin-left: 0px;
+}
+
+button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
+
+p {
+  color: #64748b;
+  font-weight: 600;
+}
+
+.rating-holder {
+  display: flex;
+  align-items: center;
+  align-items: flex-start;
+  color: #64748b;
+  font-weight: 600;
+}
+
+.rating-style {
+  width: 35%;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-right: 7px;
+}
+
+span {
+  margin-top: 8px;
+}
+
+.clear-filters-btn {
+  border: 1px #0967d2 solid;
+  color: #0967d2;
+  padding: 10px;
+  border-radius: 5px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.class-list li button.active p {
+  color: #0967d2;
+}
